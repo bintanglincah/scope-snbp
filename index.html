@@ -274,7 +274,8 @@
         <button class="btn btn btn-retry" onclick="location.reload()">🔄 Analisis Ulang</button>
     </div>
 
-</div> <script>
+</div> 
+<script>
     let allData = [];
     let ptnList = [];
     let currentResults = { data2024: null, data2026: null, common: null };
@@ -408,7 +409,7 @@
                 schoolIndexJson: document.getElementById('schoolIndex').value,
                 totalCertScore: totalCert,
                 schoolName: document.getElementById('schoolName').value.toUpperCase(),
-                trendPenalty: (grades[4] < grades[3]) ? 15 : 0 // Simplified trend logic
+                trendPenalty: (grades[4] < grades[3]) ? 15 : 0 
             };
 
             // Calculate
@@ -417,11 +418,16 @@
 
             currentResults = { data2024: res2024, data2026: res2026, common: { name: document.getElementById('studentName').value } };
 
-            // UI TOGGLE (Fixed)
+            // UI TOGGLE
             document.getElementById('wizardForm').style.display = 'none';
             document.getElementById('resultArea').style.display = 'block';
-            window.scrollTo(0, 0); // Scroll to top to ensure visibility
+            window.scrollTo(0, 0); 
             
+            // --- FIX PENTING: TAMPILKAN NAMA PTN & JURUSAN DI SINI ---
+            document.getElementById('resPTN').innerText = ptnVal;
+            document.getElementById('resJur').innerText = targetUniData.jurusan;
+            // ---------------------------------------------------------
+
             // Show Default Tab
             switchTab('2026');
 
