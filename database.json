@@ -1,0 +1,3682 @@
+[
+ {
+   "PTN": "UI",
+   "Jurusan": "Pendidikan Dokter",
+   "PassingGrade": 94.85,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 55,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Pendidikan Dokter Gigi",
+   "PassingGrade": 92.15,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 35,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 92.96,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 36,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Kesehatan Masyarakat",
+   "PassingGrade": 92.87,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1300
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Keperawatan",
+   "PassingGrade": 92.87,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 60,
+   "Pendaftar": 1400
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Komputer",
+   "PassingGrade": 94.2,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sistem Informasi",
+   "PassingGrade": 93.1,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1800
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Aktuaria",
+   "PassingGrade": 93.05,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 20,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Matematika",
+   "PassingGrade": 89.95,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Fisika",
+   "PassingGrade": 88.4,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 28,
+   "Pendaftar": 320
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Kimia",
+   "PassingGrade": 89.68,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 28,
+   "Pendaftar": 410
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Biologi",
+   "PassingGrade": 91.15,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 28,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Geografi",
+   "PassingGrade": 89.69,
+   "MapelPendukung": "Geografi / Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 480
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 90.45,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 40,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 90.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Elektro",
+   "PassingGrade": 91.25,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 40,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Metalurgi & Material",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 600
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Arsitektur",
+   "PassingGrade": 90.85,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Kimia",
+   "PassingGrade": 90.3,
+   "MapelPendukung": "Kimia & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Industri",
+   "PassingGrade": 92.4,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 40,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 92.15,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 25,
+   "Pendaftar": 620
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Perkapalan",
+   "PassingGrade": 90.75,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 20,
+   "Pendaftar": 310
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Komputer",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 890
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknik Biomedis",
+   "PassingGrade": 90.64,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 15,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Arsitektur Interior",
+   "PassingGrade": 89.7,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 15,
+   "Pendaftar": 680
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Teknologi Bioproses",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 15,
+   "Pendaftar": 420
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Geologi",
+   "PassingGrade": 89.69,
+   "MapelPendukung": "Fisika & Geografi",
+   "DayaTampung": 20,
+   "Pendaftar": 380
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 93.8,
+   "MapelPendukung": "Sosiologi / PPKN",
+   "DayaTampung": 90,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Ekonomi",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 93.9,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 93.15,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 2200
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Politik",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "Sosiologi / PPKN",
+   "DayaTampung": 30,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 94.1,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 35,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sosiologi",
+   "PassingGrade": 89.75,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 30,
+   "Pendaftar": 680
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Kriminologi",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 25,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 93.6,
+   "MapelPendukung": "Sosiologi / Matematika",
+   "DayaTampung": 90,
+   "Pendaftar": 2900
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Indonesia",
+   "PassingGrade": 90.6,
+   "MapelPendukung": "B. Indonesia",
+   "DayaTampung": 25,
+   "Pendaftar": 520
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 25,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Jepang",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 25,
+   "Pendaftar": 610
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Perancis",
+   "PassingGrade": 88.7,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 15,
+   "Pendaftar": 250
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Cina",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 15,
+   "Pendaftar": 280
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Arab",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 20,
+   "Pendaftar": 310
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Rusia",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 15,
+   "Pendaftar": 220
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Jerman",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 15,
+   "Pendaftar": 240
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Belanda",
+   "PassingGrade": 85.9,
+   "MapelPendukung": "B. Asing / B. Indo",
+   "DayaTampung": 15,
+   "Pendaftar": 180
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sastra Jawa",
+   "PassingGrade": 84.5,
+   "MapelPendukung": "B. Daerah / B. Indo",
+   "DayaTampung": 20,
+   "Pendaftar": 150
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Sejarah",
+   "PassingGrade": 88.4,
+   "MapelPendukung": "Sejarah",
+   "DayaTampung": 25,
+   "Pendaftar": 410
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Filsafat",
+   "PassingGrade": 87.1,
+   "MapelPendukung": "Sosiologi / Sejarah",
+   "DayaTampung": 25,
+   "Pendaftar": 380
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Arkeologi",
+   "PassingGrade": 87.8,
+   "MapelPendukung": "Sejarah / Antropologi",
+   "DayaTampung": 25,
+   "Pendaftar": 350
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Antropologi Sosial",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Antropologi / Sosiologi",
+   "DayaTampung": 25,
+   "Pendaftar": 480
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 94.4,
+   "MapelPendukung": "Sosiologi / B. Inggris",
+   "DayaTampung": 25,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Kesejahteraan Sosial",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 30,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Administrasi Negara",
+   "PassingGrade": 91.4,
+   "MapelPendukung": "Sosiologi / Ekonomi",
+   "DayaTampung": 45,
+   "Pendaftar": 1200
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Administrasi Niaga",
+   "PassingGrade": 92.1,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Ilmu Administrasi Fiskal",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Bisnis Kreatif (D4)",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Ekonomi / Seni",
+   "DayaTampung": 40,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Manajemen Rekod & Arsip (D4)",
+   "PassingGrade": 86.2,
+   "MapelPendukung": "Sosiologi / Bahasa",
+   "DayaTampung": 40,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Media Produksi (D4)",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Sosiologi / Seni",
+   "DayaTampung": 40,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Fisioterapi (D4)",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 40,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Okupasi Terapi (D4)",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 40,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Akuntansi Sektor Publik (D4)",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 40,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UI",
+   "Jurusan": "Manajemen Bisnis Pariwisata (D4)",
+   "PassingGrade": 88.4,
+   "MapelPendukung": "Ekonomi / B. Inggris",
+   "DayaTampung": 40,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 94.5,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 54,
+   "Pendaftar": 2950
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 92.7,
+   "MapelPendukung": "Matematika & Fisika",
+   "DayaTampung": 37,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Pemeliharaan Infrastruktur Sipil (D4)",
+   "PassingGrade": 91.3,
+   "MapelPendukung": "Matematika & Fisika",
+   "DayaTampung": 32,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Kedokteran Gigi",
+   "PassingGrade": 93.8,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1200
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Kedokteran Hewan",
+   "PassingGrade": 93.25,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 68,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 92.9,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 72,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Gizi Kesehatan",
+   "PassingGrade": 92.75,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 30,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Ilmu Keperawatan",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Biologi",
+   "PassingGrade": 91.75,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 68,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 92.3,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 60,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 92.75,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 53,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Elektro",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Nuklir",
+   "PassingGrade": 90.92,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 23,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Geodesi",
+   "PassingGrade": 90.1,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 620
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Geologi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Fisika / Geografi",
+   "DayaTampung": 45,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Kimia",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Kimia & Matematika",
+   "DayaTampung": 53,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Fisika",
+   "PassingGrade": 90.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Biomedis",
+   "PassingGrade": 90.9,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 18,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Arsitektur",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Perencanaan Wilayah Kota",
+   "PassingGrade": 88.4,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknologi Informasi",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 38,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Ilmu Komputer",
+   "PassingGrade": 92.95,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Statistika",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 23,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Elektronika & Instrumentasi",
+   "PassingGrade": 88.72,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 23,
+   "Pendaftar": 480
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Agronomi",
+   "PassingGrade": 88.35,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 30,
+   "Pendaftar": 350
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Pertanian",
+   "PassingGrade": 88.18,
+   "MapelPendukung": "Biologi & Fisika",
+   "DayaTampung": 38,
+   "Pendaftar": 420
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknologi Pangan",
+   "PassingGrade": 88.6,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 38,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Ilmu Tanah",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Biologi / Kimia",
+   "DayaTampung": 30,
+   "Pendaftar": 320
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Proteksi Tanaman",
+   "PassingGrade": 89.9,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 30,
+   "Pendaftar": 280
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 92.8,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 115,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 92.4,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 91.9,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Ilmu Ekonomi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 34,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 92.9,
+   "MapelPendukung": "Sosiologi / Matematika",
+   "DayaTampung": 68,
+   "Pendaftar": 3400
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 93.2,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 23,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 93.5,
+   "MapelPendukung": "Sosiologi / B. Inggris",
+   "DayaTampung": 23,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Manajemen Kebijakan Publik",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Sosiologi / Ekonomi",
+   "DayaTampung": 23,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Pariwisata",
+   "PassingGrade": 88.4,
+   "MapelPendukung": "Ekonomi / B. Inggris",
+   "DayaTampung": 23,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 23,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Sastra Jepang",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "B. Asing",
+   "DayaTampung": 18,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Sastra Korea",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "B. Asing",
+   "DayaTampung": 20,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Filsafat",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "Sosiologi / Sejarah",
+   "DayaTampung": 45,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Antropologi Budaya",
+   "PassingGrade": 87.6,
+   "MapelPendukung": "Antropologi / Sosiologi",
+   "DayaTampung": 30,
+   "Pendaftar": 680
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Sejarah",
+   "PassingGrade": 86.3,
+   "MapelPendukung": "Sejarah",
+   "DayaTampung": 23,
+   "Pendaftar": 420
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Sosiologi",
+   "PassingGrade": 88.7,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 23,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Politik & Pemerintahan",
+   "PassingGrade": 89.4,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 23,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknik Pengelolaan Alat Berat (D4)",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 23,
+   "Pendaftar": 320
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknologi Rekayasa Perangkat Lunak (D4)",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Teknologi Rekayasa Elektro (D4)",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Manajemen Informasi Kesehatan (D4)",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 30,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Akuntansi Sektor Publik (D4)",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Bisnis Perjalanan Wisata (D4)",
+   "PassingGrade": 86.9,
+   "MapelPendukung": "Ekonomi / B. Inggris",
+   "DayaTampung": 30,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UGM",
+   "Jurusan": "Bahasa Inggris (D4)",
+   "PassingGrade": 86.4,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 30,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "STEI-K (Informatika)",
+   "PassingGrade": 94.1,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 190,
+   "Pendaftar": 3800
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "STEI-R (Elektro)",
+   "PassingGrade": 93,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 210,
+   "Pendaftar": 2500
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTTM (Tambang/Minyak)",
+   "PassingGrade": 93.4,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 180,
+   "Pendaftar": 2900
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTTM Cirebon",
+   "PassingGrade": 91.64,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTI (Industri/Kimia)",
+   "PassingGrade": 91.89,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 220,
+   "Pendaftar": 2400
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTI Cirebon",
+   "PassingGrade": 91.82,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTMD (Mesin/Dirgantara)",
+   "PassingGrade": 93.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 160,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTSL (Sipil/Lingkungan)",
+   "PassingGrade": 92.6,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 240,
+   "Pendaftar": 1900
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FTSL Jatinangor",
+   "PassingGrade": 91.05,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 80,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "SAPPK (Arsitektur/Planologi)",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 120,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "SAPPK Cirebon",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 40,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "SITH - Sains",
+   "PassingGrade": 90.7,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 110,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "SITH - Rekayasa",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Biologi & Fisika",
+   "DayaTampung": 140,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FMIPA (Mat/Fis/Kim/Ast)",
+   "PassingGrade": 89.39,
+   "MapelPendukung": "Matematika & Fisika",
+   "DayaTampung": 230,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FITB (Geologi/Geodesi)",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Fisika & Geografi",
+   "DayaTampung": 170,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FITB Cirebon",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Fisika & Geografi",
+   "DayaTampung": 40,
+   "Pendaftar": 320
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "SF (Sekolah Farmasi)",
+   "PassingGrade": 92.1,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 75,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "SBM (Bisnis & Manajemen)",
+   "PassingGrade": 93.8,
+   "MapelPendukung": "Matematika / Ekonomi",
+   "DayaTampung": 120,
+   "Pendaftar": 2950
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FSRD (Seni Rupa & Desain)",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 150,
+   "Pendaftar": 1800
+ },
+ {
+   "PTN": "ITB",
+   "Jurusan": "FSRD Cirebon",
+   "PassingGrade": 87.15,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 30,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Ilmu Komputer",
+   "PassingGrade": 93.84,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 70,
+   "Pendaftar": 2300
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Statistika & Sains Data",
+   "PassingGrade": 93.26,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 70,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Aktuaria",
+   "PassingGrade": 92.93,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Matematika",
+   "PassingGrade": 91.04,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Ilmu Gizi",
+   "PassingGrade": 93.91,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknologi Pangan",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 1600
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknik Sipil & Lingkungan",
+   "PassingGrade": 90.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 50,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknik Pertanian & Biosistem",
+   "PassingGrade": 91.55,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 60,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknologi Industri Pertanian",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 75,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Arsitektur Lanskap",
+   "PassingGrade": 92.2,
+   "MapelPendukung": "Biologi / Seni",
+   "DayaTampung": 45,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 93.1,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 70,
+   "Pendaftar": 2400
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Agribisnis",
+   "PassingGrade": 91.4,
+   "MapelPendukung": "Biologi / Ekonomi",
+   "DayaTampung": 80,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Ekonomi Syariah",
+   "PassingGrade": 91.9,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Ilmu Keluarga & Konsumen",
+   "PassingGrade": 91.91,
+   "MapelPendukung": "Sosiologi / Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Komunikasi & Peng. Masyarakat",
+   "PassingGrade": 93.71,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 65,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Kedokteran Hewan",
+   "PassingGrade": 92.6,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 95,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Bisnis",
+   "PassingGrade": 92.8,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 70,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 94.1,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 50,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Biokimia",
+   "PassingGrade": 91.32,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 820
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Biologi",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 50,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Fisika",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 420
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Meteorologi Terapan",
+   "PassingGrade": 88.4,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Konservasi Sumberdaya Hutan",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknologi Hasil Hutan",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Biologi / Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 480
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Ilmu & Teknologi Kelautan",
+   "PassingGrade": 91.25,
+   "MapelPendukung": "Biologi / Fisika",
+   "DayaTampung": 50,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Manajemen Sumberdaya Perairan",
+   "PassingGrade": 88.7,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 50,
+   "Pendaftar": 620
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknologi Perikanan Budidaya",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 50,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Komunikasi Digital & Media (D4)",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Sosiologi / B. Indo",
+   "DayaTampung": 70,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Ekowisata (D4)",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "Biologi / Ekonomi",
+   "DayaTampung": 50,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Teknologi Rekayasa Perangkat Lunak (D4)",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 60,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Manajemen Agribisnis (D4)",
+   "PassingGrade": 87.8,
+   "MapelPendukung": "Ekonomi / Biologi",
+   "DayaTampung": 70,
+   "Pendaftar": 1200
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Akuntansi (D4)",
+   "PassingGrade": 88.6,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 70,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "IPB",
+   "Jurusan": "Paramedik Veteriner (D4)",
+   "PassingGrade": 87.4,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 50,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 93.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 2750
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Sistem Informasi",
+   "PassingGrade": 92.23,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Elektro",
+   "PassingGrade": 92.11,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 75,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Industri",
+   "PassingGrade": 92.01,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 70,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 80,
+   "Pendaftar": 1400
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 92.8,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 75,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Kimia",
+   "PassingGrade": 92.9,
+   "MapelPendukung": "Kimia & Fisika",
+   "DayaTampung": 65,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Arsitektur",
+   "PassingGrade": 90.19,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Desain Komunikasi Visual",
+   "PassingGrade": 89.29,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 45,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Sains Aktuaria",
+   "PassingGrade": 91.97,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Statistika",
+   "PassingGrade": 90.31,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Biomedik",
+   "PassingGrade": 91.6,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 25,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Sistem Perkapalan",
+   "PassingGrade": 88.31,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Perkapalan",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 620
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Kelautan",
+   "PassingGrade": 88.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 680
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Transportasi Laut",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Matematika / Fisika",
+   "DayaTampung": 25,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Geomatika",
+   "PassingGrade": 90.74,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Geofisika",
+   "PassingGrade": 90.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 480
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Material",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 50,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Fisika",
+   "PassingGrade": 90.7,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 92.4,
+   "MapelPendukung": "Biologi & Fisika",
+   "DayaTampung": 50,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Perencanaan Wilayah & Kota",
+   "PassingGrade": 89.37,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Desain Produk Industri",
+   "PassingGrade": 87.84,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 45,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Desain Interior",
+   "PassingGrade": 87.89,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 45,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Manajemen Bisnis",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Studi Pembangunan",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Sosiologi / Ekonomi",
+   "DayaTampung": 30,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknik Sipil (D4)",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknologi Rekayasa Konstruksi Bangunan Air (D4)",
+   "PassingGrade": 85.9,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 420
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknologi Rekayasa Manufaktur (D4)",
+   "PassingGrade": 85.2,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 480
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknologi Rekayasa Konversi Energi (D4)",
+   "PassingGrade": 84.8,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 510
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknologi Rekayasa Otomasi (D4)",
+   "PassingGrade": 85.1,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknologi Rekayasa Kimia Industri (D4)",
+   "PassingGrade": 85.5,
+   "MapelPendukung": "Kimia & Fisika",
+   "DayaTampung": 35,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Teknologi Rekayasa Instrumentasi (D4)",
+   "PassingGrade": 84.9,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "ITS",
+   "Jurusan": "Statistika Bisnis (D4)",
+   "PassingGrade": 86.2,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 94.2,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 60,
+   "Pendaftar": 2550
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Kedokteran Gigi",
+   "PassingGrade": 93.1,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 50,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 92.1,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Kesehatan Masyarakat",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Kebidanan",
+   "PassingGrade": 91.4,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 35,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Teknologi Sains Data",
+   "PassingGrade": 90.9,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Sistem Informasi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 35,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Teknik Robotika & AI",
+   "PassingGrade": 90.72,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Teknik Biomedis",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 25,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 91.9,
+   "MapelPendukung": "Biologi & Fisika",
+   "DayaTampung": 30,
+   "Pendaftar": 580
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Matematika",
+   "PassingGrade": 89.4,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 30,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Biologi",
+   "PassingGrade": 88.6,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 30,
+   "Pendaftar": 420
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Fisika",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 30,
+   "Pendaftar": 280
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Kimia",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 30,
+   "Pendaftar": 350
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Akuakultur",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Kedokteran Hewan",
+   "PassingGrade": 93.36,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Gizi",
+   "PassingGrade": 92.87,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 35,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 92.3,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 75,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Sosiologi / B. Inggris",
+   "DayaTampung": 35,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 91.9,
+   "MapelPendukung": "Sosiologi / Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Ekonomi Pembangunan",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Ekonomi Islam",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Administrasi Publik",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 35,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Sosiologi",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 30,
+   "Pendaftar": 620
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 35,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 35,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Pengobat Tradisional (D4)",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 25,
+   "Pendaftar": 320
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Fisioterapi (D4)",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 30,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Teknologi Radiologi Pencitraan (D4)",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "Fisika & Biologi",
+   "DayaTampung": 30,
+   "Pendaftar": 820
+ },
+ {
+   "PTN": "UNAIR",
+   "Jurusan": "Manajemen Perkantoran Digital (D4)",
+   "PassingGrade": 86.5,
+   "MapelPendukung": "Ekonomi / TIK",
+   "DayaTampung": 35,
+   "Pendaftar": 680
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 93.8,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 85,
+   "Pendaftar": 3200
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 92.1,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 75,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Ilmu Gizi",
+   "PassingGrade": 91.4,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 55,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Teknik Industri",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Agroteknologi",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 150,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 91.4,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 92,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 155,
+   "Pendaftar": 3400
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89.3,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 95,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 85,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 89,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 75,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Administrasi Publik",
+   "PassingGrade": 89.9,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 95,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 91.1,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 95,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 92.73,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Teknik Elektro",
+   "PassingGrade": 91.72,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 980
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Arsitektur",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Perencanaan Wilayah Kota",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Sistem Informasi",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Statistika",
+   "PassingGrade": 89.9,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Peternakan",
+   "PassingGrade": 86.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 180,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Teknologi Pangan",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Ilmu Kelautan",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 65,
+   "Pendaftar": 920
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Desain Grafis (D4)",
+   "PassingGrade": 86.5,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 45,
+   "Pendaftar": 880
+ },
+ {
+   "PTN": "UB",
+   "Jurusan": "Manajemen Perhotelan (D4)",
+   "PassingGrade": 85.8,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 45,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Pendidikan Dokter",
+   "PassingGrade": 93.9,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 75,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Pendidikan Dokter Gigi",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 92.4,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 92.1,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 65,
+   "Pendaftar": 2650
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 2150
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Aktuaria",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 89.6,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 40,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 55,
+   "Pendaftar": 2550
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 92.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 91.51,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 125,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 90.4,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 55,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Bisnis Digital",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Ekonomi / Matematika",
+   "DayaTampung": 25,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Teknik Geologi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Agroteknologi",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 110,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Administrasi Publik",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Keperawatan",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Perikanan",
+   "PassingGrade": 85.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 85,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Peternakan",
+   "PassingGrade": 85.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 95,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Akuntansi Perpajakan (D4)",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 35,
+   "Pendaftar": 780
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Bisnis Internasional (D4)",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "Ekonomi / B. Inggris",
+   "DayaTampung": 35,
+   "Pendaftar": 820
+ },
+ {
+   "PTN": "UNPAD",
+   "Jurusan": "Kebidanan (D4)",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 35,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 92.37,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 65,
+   "Pendaftar": 2650
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 90.17,
+   "MapelPendukung": "Sosiologi / Matematika",
+   "DayaTampung": 110,
+   "Pendaftar": 3200
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Informatika",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Hukum",
+   "PassingGrade": 91.96,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 185,
+   "Pendaftar": 3600
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Kesehatan Masyarakat",
+   "PassingGrade": 92.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 85,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 90,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 65,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 91,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 95,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 105,
+   "Pendaftar": 2950
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 91.52,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 85,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 89,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 105,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Teknik Arsitektur",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Adm. Bisnis",
+   "PassingGrade": 89,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 85,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Teknik Industri",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 75,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Ekonomi Pembangunan",
+   "PassingGrade": 85,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Biologi & Fisika",
+   "DayaTampung": 55,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 86,
+   "MapelPendukung": "Sosiologi / B. Inggris",
+   "DayaTampung": 65,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Perenc. Wilayah Kota",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 86,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 55,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Gizi",
+   "PassingGrade": 91.71,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Sastra Indonesia",
+   "PassingGrade": 86,
+   "MapelPendukung": "B. Indonesia",
+   "DayaTampung": 45,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 35,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Sejarah",
+   "PassingGrade": 83,
+   "MapelPendukung": "Sejarah",
+   "DayaTampung": 45,
+   "Pendaftar": 350
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Keperawatan",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 75,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Ilmu Pemerintahan",
+   "PassingGrade": 88.91,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 55,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Teknologi Rekayasa Kimia Industri (D4)",
+   "PassingGrade": 85.5,
+   "MapelPendukung": "Kimia & Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNDIP",
+   "Jurusan": "Akuntansi Perpajakan (D4)",
+   "PassingGrade": 86.2,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 45,
+   "Pendaftar": 720
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 93.1,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 60,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 95,
+   "Pendaftar": 2950
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Informatika",
+   "PassingGrade": 91.2,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 90,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 2150
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 91.9,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 85,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 90,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 85,
+   "Pendaftar": 2750
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 92.4,
+   "MapelPendukung": "Kimia & Biologi",
+   "DayaTampung": 35,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Hukum",
+   "PassingGrade": 92.7,
+   "MapelPendukung": "PPKn",
+   "DayaTampung": 145,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Teknik Industri",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 85,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 75,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Arsitektur",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Matematika & Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Agroteknologi",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 110,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Sosiologi",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Pend. Dokter (Kebumen)",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 20,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "PGSD (Kebumen)",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "B. Indonesia / Mat",
+   "DayaTampung": 35,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Keselamatan & Kesehatan Kerja (D4)",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNS",
+   "Jurusan": "Bidan Pendidik (D4)",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 35,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Pendidikan Dokter",
+   "PassingGrade": 93.5,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 65,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 55,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 90.9,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 91.63,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 93.38,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 115,
+   "Pendaftar": 2650
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 92.31,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 90.05,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 2150
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 88.05,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 75,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Teknik Pertambangan",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 35,
+   "Pendaftar": 1100
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Kesehatan Masyarakat",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 75,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Sastra Jepang",
+   "PassingGrade": 85.97,
+   "MapelPendukung": "B. Asing",
+   "DayaTampung": 25,
+   "Pendaftar": 320
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Sastra Daerah/Bugis",
+   "PassingGrade": 84.99,
+   "MapelPendukung": "B. Daerah",
+   "DayaTampung": 25,
+   "Pendaftar": 120
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Ilmu Kelautan",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNHAS",
+   "Jurusan": "Teknik Perkapalan",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Pendidikan Dokter",
+   "PassingGrade": 93.2,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 65,
+   "Pendaftar": 2350
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 93.64,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 65,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Teknik Industri",
+   "PassingGrade": 92.2,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 93.68,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 2550
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 91.17,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Agribisnis",
+   "PassingGrade": 91.68,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 75,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Biologi",
+   "PassingGrade": 89.83,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "PPKn",
+   "DayaTampung": 125,
+   "Pendaftar": 2950
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Teknologi Informasi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Kesehatan Masyarakat",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 95,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Teknik Kimia",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 55,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 75,
+   "Pendaftar": 2150
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Teknik Mesin",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 65,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 55,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Kedokteran Gigi",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "USU",
+   "Jurusan": "Sastra Daerah",
+   "PassingGrade": 88.33,
+   "MapelPendukung": "B. Daerah",
+   "DayaTampung": 35,
+   "Pendaftar": 180
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Pendidikan Dokter",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 65,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Sosiologi / PPKn",
+   "DayaTampung": 125,
+   "Pendaftar": 2750
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 55,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 2150
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Sistem Komputer",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 87.9,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 65,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Biologi",
+   "PassingGrade": 86.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "Biologi & Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNAND",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 86.2,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89.43,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 110,
+   "Pendaftar": 3400
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 88.92,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 110,
+   "Pendaftar": 2550
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Hukum",
+   "PassingGrade": 88.1,
+   "MapelPendukung": "PPKn",
+   "DayaTampung": 165,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Pendidikan Matematika",
+   "PassingGrade": 87.8,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "PGSD",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "B. Indonesia",
+   "DayaTampung": 185,
+   "Pendaftar": 3800
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Kesehatan Masyarakat",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 95,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 86.5,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 65,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 86.9,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Pendidikan B. Inggris",
+   "PassingGrade": 87.2,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Gizi",
+   "PassingGrade": 89.1,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "UNNES",
+   "Jurusan": "Ilmu Politik",
+   "PassingGrade": 86.8,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 92.8,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Hukum",
+   "PassingGrade": 89,
+   "MapelPendukung": "PPKn",
+   "DayaTampung": 110,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Informatika",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 65,
+   "Pendaftar": 2250
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Keperawatan",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Komunikasi",
+   "PassingGrade": 89,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 88,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 65,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Gizi",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Administrasi Publik",
+   "PassingGrade": 87,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 55,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 86,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Teknik Elektro",
+   "PassingGrade": 86.9,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 45,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 86,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Agroteknologi",
+   "PassingGrade": 85.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 85,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNSOED",
+   "Jurusan": "Sosiologi",
+   "PassingGrade": 86,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Kedokteran",
+   "PassingGrade": 93.92,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 75,
+   "Pendaftar": 2350
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Pariwisata",
+   "PassingGrade": 91.66,
+   "MapelPendukung": "Ekonomi / B. Inggris",
+   "DayaTampung": 65,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Farmasi",
+   "PassingGrade": 93.53,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 93.55,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 125,
+   "Pendaftar": 2550
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Informatika",
+   "PassingGrade": 93.16,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 93.21,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 125,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 91.53,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 85,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 93.24,
+   "MapelPendukung": "PPKn",
+   "DayaTampung": 165,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Kedokteran Hewan",
+   "PassingGrade": 91.6,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 91.35,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Keperawatan",
+   "PassingGrade": 92.57,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 91.68,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 55,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Teknik Elektro",
+   "PassingGrade": 89.83,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 55,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 92.5,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Teknik Arsitektur",
+   "PassingGrade": 91.4,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Ilmu Sejarah",
+   "PassingGrade": 87.21,
+   "MapelPendukung": "Sejarah",
+   "DayaTampung": 25,
+   "Pendaftar": 180
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Teknologi Pangan",
+   "PassingGrade": 90.12,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 550
+ },
+ {
+   "PTN": "UNUD",
+   "Jurusan": "Pengelolaan Perhotelan (D4)",
+   "PassingGrade": 89.33,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 45,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Psikologi",
+   "PassingGrade": 93.91,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 95,
+   "Pendaftar": 3100
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "PGSD",
+   "PassingGrade": 93.92,
+   "MapelPendukung": "B. Indonesia",
+   "DayaTampung": 185,
+   "Pendaftar": 3600
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 2350
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 91.8,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 110,
+   "Pendaftar": 3200
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Gizi",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 55,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Ilmu Komunikasi",
+   "PassingGrade": 92.1,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 65,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Sistem Informasi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 55,
+   "Pendaftar": 1750
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 90.8,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 110,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Desain Komunikasi Visual",
+   "PassingGrade": 90.95,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 65,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Hukum",
+   "PassingGrade": 90.2,
+   "MapelPendukung": "PPKn",
+   "DayaTampung": 145,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Administrasi Negara",
+   "PassingGrade": 93.26,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 65,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Pendidikan Matematika",
+   "PassingGrade": 89.8,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1250
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 55,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Tata Boga (D4)",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Seni / Prakarya",
+   "DayaTampung": 45,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNESA",
+   "Jurusan": "Desain Grafis (D4)",
+   "PassingGrade": 86.56,
+   "MapelPendukung": "Seni Budaya",
+   "DayaTampung": 45,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Pendidikan Dokter",
+   "PassingGrade": 92,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 55,
+   "Pendaftar": 1950
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Teknik Kimia",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Kimia",
+   "DayaTampung": 45,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 87.8,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 55,
+   "Pendaftar": 750
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Teknik Informatika",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 45,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Keperawatan",
+   "PassingGrade": 88.9,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 1450
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 85,
+   "Pendaftar": 2150
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 85,
+   "Pendaftar": 1650
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Ilmu Hukum",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 110,
+   "Pendaftar": 2350
+ },
+ {
+   "PTN": "UNRI",
+   "Jurusan": "Hubungan Internasional",
+   "PassingGrade": 87.9,
+   "MapelPendukung": "Sosiologi",
+   "DayaTampung": 45,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "PGSD",
+   "PassingGrade": 91.5,
+   "MapelPendukung": "B. Indonesia",
+   "DayaTampung": 145,
+   "Pendaftar": 2850
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Pendidikan Matematika",
+   "PassingGrade": 89,
+   "MapelPendukung": "Matematika",
+   "DayaTampung": 65,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Gizi",
+   "PassingGrade": 88.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 45,
+   "Pendaftar": 1350
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Pendidikan B. Inggris",
+   "PassingGrade": 88.2,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 65,
+   "Pendaftar": 1050
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Akuntansi",
+   "PassingGrade": 88.8,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 1550
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Manajemen",
+   "PassingGrade": 89.2,
+   "MapelPendukung": "Ekonomi",
+   "DayaTampung": 75,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Teknik Sipil",
+   "PassingGrade": 86.5,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 55,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Sastra Inggris",
+   "PassingGrade": 86,
+   "MapelPendukung": "B. Inggris",
+   "DayaTampung": 55,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Pendidikan Biologi",
+   "PassingGrade": 87.5,
+   "MapelPendukung": "Biologi",
+   "DayaTampung": 65,
+   "Pendaftar": 950
+ },
+ {
+   "PTN": "UNIMED",
+   "Jurusan": "Ilmu Olahraga",
+   "PassingGrade": 85,
+   "MapelPendukung": "PJOK",
+   "DayaTampung": 65,
+   "Pendaftar": 450
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Geologi",
+   "PassingGrade": 90.5,
+   "MapelPendukung": "Fisika & Geografi",
+   "DayaTampung": 120,
+   "Pendaftar": 1850
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Perminyakan",
+   "PassingGrade": 92.2,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 100,
+   "Pendaftar": 2100
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Pertambangan",
+   "PassingGrade": 92.8,
+   "MapelPendukung": "Fisika & Matematika",
+   "DayaTampung": 110,
+   "Pendaftar": 2450
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Lingkungan",
+   "PassingGrade": 89.5,
+   "MapelPendukung": "Biologi & Kimia",
+   "DayaTampung": 90,
+   "Pendaftar": 1150
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Geofisika",
+   "PassingGrade": 90.67,
+   "MapelPendukung": "Fisika",
+   "DayaTampung": 60,
+   "Pendaftar": 650
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Metalurgi",
+   "PassingGrade": 91.73,
+   "MapelPendukung": "Fisika & Kimia",
+   "DayaTampung": 70,
+   "Pendaftar": 850
+ },
+ {
+   "PTN": "UPNVY",
+   "Jurusan": "Teknik Geomatika",
+   "PassingGrade": 88.6,
+   "MapelPendukung": "Matematika & Geografi",
+   "DayaTampung": 60,
+   "Pendaftar": 720
+ }
+]
