@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scope 1.0 - Hybrid Prediction System</title>
+    <title>Scope 1.0 - Final Stable</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
     <style>
-        /* --- STYLE FIXED --- */
+        /* --- CSS ENGINE (Patch 9.4) --- */
         :root {
             --bg-gradient: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e3a8a 100%);
-            --glass-bg: rgba(15, 23, 42, 0.9); 
+            --glass-bg: rgba(15, 23, 42, 0.95); /* Lebih gelap dikit biar teks jelas */
             --glass-border: rgba(255, 255, 255, 0.1); 
             --glass-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8); 
             --primary: #3b82f6; --secondary: #06b6d4; --accent: #6366f1;
@@ -17,53 +17,68 @@
             --text-main: #f8fafc; --text-muted: #94a3b8; 
         }
         body { font-family: 'Inter', sans-serif; background: var(--bg-gradient); background-attachment: fixed; color: var(--text-main); margin: 0; padding: 20px; min-height: 100vh; display: flex; justify-content: center; align-items: center; box-sizing: border-box; }
-        .container { width: 100%; max-width: 600px; background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 24px; padding: 35px; box-shadow: var(--glass-shadow); position: relative; overflow: hidden; }
         
-        /* LOGO FIXED */
+        /* CONTAINER UTAMA - WAJIB RELATIVE AGAR TIDAK SIDE-BY-SIDE */
+        .container { width: 100%; max-width: 600px; background: var(--glass-bg); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid var(--glass-border); border-radius: 24px; padding: 35px; box-shadow: var(--glass-shadow); position: relative; overflow: hidden; display: flex; flex-direction: column; }
+        
         .header { text-align: center; margin-bottom: 35px; }
         .header img.logo-placeholder { max-height: 80px; width: auto; margin-bottom: 15px; filter: drop-shadow(0 0 15px rgba(59, 130, 246, 0.3)); }
         
         .header h1 { margin: 0; font-weight: 900; font-size: 2.4rem; letter-spacing: 1px; background: linear-gradient(to right, #e2e8f0, #60a5fa, #22d3ee); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-transform: uppercase; }
         .header .motto { color: var(--text-muted); font-size: 0.9rem; margin: 10px 0 15px 0; font-weight: 500; }
         .version-badge { display: inline-block; background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(96, 165, 250, 0.3); padding: 4px 10px; border-radius: 20px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; color: #60a5fa; }
+        
+        /* WIZARD & RESULT TOGGLE */
+        #wizardForm { width: 100%; transition: opacity 0.3s ease; }
+        #resultArea { width: 100%; display: none; animation: slideUp 0.5s ease; }
+        
+        /* PROGRESS BAR */
         .progress-container { display: flex; justify-content: space-between; margin-bottom: 35px; position: relative; padding: 0 10px; }
         .progress-bg { position: absolute; top: 50%; left: 10px; right: 10px; height: 3px; background: rgba(255,255,255,0.1); transform: translateY(-50%); z-index:0; }
         .progress-fill { position: absolute; top: 50%; left: 10px; height: 3px; background: linear-gradient(to right, var(--primary), var(--secondary)); transform: translateY(-50%); transition: width 0.4s ease; width: 0%; z-index:1; box-shadow: 0 0 10px rgba(59, 130, 246, 0.5); }
         .step-dot { width: 32px; height: 32px; background: var(--bg-gradient); border: 2px solid rgba(255,255,255,0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: var(--text-muted); z-index: 2; transition: 0.3s; font-size: 0.85rem; }
         .step-dot.active { border-color: var(--secondary); color: #fff; background: var(--primary); box-shadow: 0 0 15px rgba(59, 130, 246, 0.4); transform: scale(1.1); }
+        
         .step-content { display: none; animation: fadeIn 0.4s ease; }
         .step-content.active { display: block; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* INPUTS */
         .input-group { margin-bottom: 20px; }
         label { display: block; font-size: 0.9rem; margin-bottom: 8px; color: var(--text-main); font-weight: 600; letter-spacing: 0.3px;}
         select, input { width: 100%; padding: 14px; background: rgba(2, 6, 23, 0.6); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; color: var(--text-main); font-family: inherit; font-size: 0.95rem; box-sizing: border-box; transition: all 0.3s ease; }
         select:focus, input:focus { outline: none; border-color: var(--primary); background: rgba(2, 6, 23, 0.8); box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); }
         #schoolName { background: rgba(255,255,255,0.03); color: var(--text-muted); border-color: transparent; cursor: not-allowed;}
+        
+        /* BUTTONS */
         .nav-buttons { display: flex; justify-content: space-between; margin-top: 35px; gap: 15px; }
         .btn { padding: 14px 24px; border-radius: 12px; font-weight: 700; cursor: pointer; border: none; transition: 0.3s; font-family: inherit; font-size: 0.95rem; letter-spacing: 0.5px; text-transform: uppercase; }
         .btn-prev { background: rgba(255,255,255,0.05); color: var(--text-muted); border: 1px solid rgba(255,255,255,0.1); }
         .btn-prev:hover { background: rgba(255,255,255,0.1); color: white; }
         .btn-next { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; flex-grow: 1; box-shadow: 0 5px 15px -5px rgba(59, 130, 246, 0.5); }
         .btn-next:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -5px rgba(34, 211, 238, 0.5); }
+        
         .grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
         .grid-5 input { text-align: center; padding: 12px; font-weight: bold;}
-        #resultArea { display: none; animation: slideUp 0.5s ease; }
-        @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-        .score-card { background: rgba(30, 41, 59, 0.5); border-radius: 20px; padding: 30px 25px; text-align: center; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; }
+        
+        /* RESULT CARD */
+        .score-card { background: rgba(30, 41, 59, 0.5); border-radius: 20px; padding: 30px 25px; text-align: center; border: 1px solid rgba(255,255,255,0.1); position: relative; overflow: hidden; margin-bottom: 20px; }
         .pred-badge { position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: var(--text-muted); font-size: 0.6rem; padding: 5px 10px; border-radius: 20px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px;}
+        
         .greeting-text { font-size: 1.1rem; color: var(--secondary); margin-bottom: 10px; font-weight: 500; line-height: 1.4; }
         .greeting-text strong { color: white; }
         .target-identity { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed rgba(255,255,255,0.1); }
         .res-ptn { font-size: 1.8rem; font-weight: 900; color: white; text-transform: uppercase; letter-spacing: 1px;}
         .res-jur { font-size: 1.1rem; color: var(--secondary); font-weight: 600; margin-top: 5px; text-transform: uppercase; letter-spacing: 0.5px;}
         
-        /* TOGGLE STYLE RESTORED */
         .year-toggle { display: flex; background: rgba(0,0,0,0.5); border-radius: 12px; padding: 4px; margin-bottom: 25px; border: 1px solid rgba(255,255,255,0.05);}
         .toggle-btn { flex: 1; padding: 10px; border: none; background: transparent; color: var(--text-muted); font-weight: 700; font-size: 0.85rem; cursor: pointer; border-radius: 10px; transition: 0.3s; }
         .toggle-btn.active { background: var(--primary); color: white; }
         
         .percentage-big { font-size: 3.5rem; font-weight: 900; line-height: 1; margin: 5px 0 5px 0; }
         #statusTxt { font-weight: 800; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 1px; font-size: 1rem;}
+        
         .breakdown-box { background: rgba(0,0,0,0.3); border-radius: 12px; padding: 20px; margin: 20px 0; text-align: left; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.05); }
         .breakdown-item { display: flex; justify-content: space-between; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px dashed rgba(255,255,255,0.1); }
         .bd-val { font-weight: 700; }
@@ -71,19 +86,24 @@
         .bd-val.neg { color: var(--danger); }
         .bd-val.neu { color: var(--text-muted); }
         .bd-val.gold { color: #fcd34d; }
+        
         .trend-alert, .blacklist-alert { padding: 15px; border-radius: 12px; margin-top: 20px; font-size: 0.9rem; text-align: left; display: none; border: 1px solid; }
         .trend-alert { background: rgba(127, 29, 29, 0.2); border-color: rgba(239, 68, 68, 0.5); color: #fca5a5; }
         .blacklist-alert { background: rgba(69, 10, 10, 0.9); border-color: #ef4444; color: #fecaca; font-weight: 600;}
+        
         .stats-grid { display: flex; justify-content: space-around; margin-top: 25px; background: rgba(0,0,0,0.3); border-radius: 12px; padding: 15px 10px; border-top: 1px solid rgba(255,255,255,0.1);}
         .stat-item { text-align: center; }
         .stat-val { font-weight: 800; font-size: 1.1rem; display: block; color: white; margin-bottom: 5px;}
         .stat-lbl { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px;}
+        
         .rec-toggle-btn { width: 100%; padding: 15px; margin-top: 25px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--secondary); font-weight: 700; border-radius: 12px; cursor: pointer; transition: 0.3s; text-transform: uppercase; letter-spacing: 1px; font-size: 0.85rem;}
         .rec-toggle-btn:hover { background: rgba(255,255,255,0.08); border-color: var(--primary); }
+        
         .rec-wrapper { display: none; margin-top: 20px; }
         .rec-card { background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255,255,255,0.05); padding: 12px; border-radius: 12px; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; transition: all 0.2s ease;}
         .rec-card:hover { background: rgba(59, 130, 246, 0.1); border-color: var(--primary); }
         .rec-ptn { font-weight: 800; font-size: 0.95rem;}
+        
         .loading { text-align: center; color: var(--text-muted); font-size: 1rem; margin-top: 30px; font-weight: 500;}
         .mapel-alert { background: rgba(6, 182, 212, 0.1); border-left: 3px solid var(--secondary); padding: 10px; margin-top: 10px; font-size: 0.9rem; color: var(--secondary); display: none;}
         .btn-retry { width:100%; margin-top:25px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: var(--text-muted); }
@@ -97,7 +117,7 @@
         <img src="logo.png" alt="SCOPE 1.0 Logo" class="logo-placeholder" onerror="this.style.display='none'">
         <h1>Scope 1.0</h1>
         <p class="motto">Navigate Your Journey: Charting Dreams, Building The Future</p>
-        <div class="version-badge">Patch 9.3 • Multi-Year Comparison Support</div>
+        <div class="version-badge">Patch 9.4 • Final Stable</div>
     </div>
 
     <div id="loading" class="loading" style="display:none;">
@@ -126,14 +146,11 @@
                 <label>Track Record Sekolah & Alumni</label>
                 <select id="schoolIndex">
                     <option value='{"idx":65, "alumni":10}'>Sekolah Standar (Sedikit Alumni)</option>
-                    
                     <option value='{"idx":72, "alumni":0}'>Akreditasi A (Belum Ada Alumni)</option>
-                    
                     <option value='{"idx":80, "alumni":20}'>Terakreditasi A (Ada Alumni)</option>
                     <option value='{"idx":85, "alumni":70}'>Sekolah Favorit (Banyak Alumni)</option>
                     <option value='{"idx":100, "alumni":100}'>Top 100 Nasional (Alumni Masif)</option>
                 </select>
-            </div>
             </div>
             <div class="input-group">
                 <label>Input 3 Prestasi Terbaik (Akumulatif)</label>
@@ -256,54 +273,39 @@
         </div>
         <button class="btn btn btn-retry" onclick="location.reload()">🔄 Analisis Ulang</button>
     </div>
-</div>
 
-<script>
+</div> <script>
     let allData = [];
     let ptnList = [];
-    // VARIABLE UNTUK MENYIMPAN HASIL GANDA
-    let currentResults = {
-        data2024: null,
-        data2026: null,
-        common: null
-    };
+    let currentResults = { data2024: null, data2026: null, common: null };
 
+    // --- SYSTEM INIT ---
     function calculateInflation2026(baseGrade, ptnName) {
         const top3 = ["UI", "UGM", "ITB"]; 
         const challenger7 = ["UNDIP", "ITS", "IPB", "UB", "UNS", "UNPAD", "UNAIR"];
         const ptnUpper = ptnName.toUpperCase();
         let inflation = 0;
-
-        if (top3.some(x => ptnUpper.includes(x))) {
-            inflation = 1.0 + Math.random(); 
-        } else if (challenger7.some(x => ptnUpper.includes(x))) {
-            inflation = 0.5 + (Math.random() * 0.65);
-        } else {
-            inflation = 0.2 + (Math.random() * 0.4);
-        }
+        if (top3.some(x => ptnUpper.includes(x))) inflation = 1.0 + Math.random(); 
+        else if (challenger7.some(x => ptnUpper.includes(x))) inflation = 0.5 + (Math.random() * 0.65);
+        else inflation = 0.2 + (Math.random() * 0.4);
         return parseFloat(baseGrade) + inflation;
     }
     
     async function initSystem() {
         document.getElementById('loading').style.display = 'block';
         document.getElementById('wizardForm').style.display = 'none';
-        
         try {
             const response = await fetch('database.json');
-            if (!response.ok) throw new Error("Gagal load database");
-            
+            if (!response.ok) throw new Error("Database not found");
             const rawData = await response.json();
             
             allData = rawData.map(item => {
                 const baseGrade = parseFloat(item.PassingGrade);
-                const ptn = item.PTN;
-                const pred2026 = calculateInflation2026(baseGrade, ptn);
-
                 return {
-                    ptn: ptn,
+                    ptn: item.PTN,
                     jurusan: item.Jurusan,
                     grade2024: baseGrade,
-                    grade2026: pred2026,
+                    grade2026: calculateInflation2026(baseGrade, item.PTN),
                     mapel: item.MapelPendukung,
                     quota: parseInt(item.DayaTampung),
                     applicants: parseInt(item.Pendaftar)
@@ -315,11 +317,12 @@
             document.getElementById('loading').style.display = 'none';
             document.getElementById('wizardForm').style.display = 'block';
         } catch (error) {
-            document.getElementById('loading').innerHTML = `<span style="color:#ef4444">Error: Gagal membaca database.json.</span>`;
+            document.getElementById('loading').innerHTML = `<span style="color:#ef4444">Database Error: Pastikan file database.json ada.</span>`;
             console.error(error);
         }
     }
 
+    // --- NAVIGATION ---
     function nextStep(step) {
         if (step === 2 && document.getElementById('studentName').value === "") return alert("Isi Nama Kamu dulu!");
         if (step === 3 && document.getElementById('ptnSelect').value === "") return alert("Pilih PTN & Jurusan!");
@@ -334,6 +337,173 @@
         for(let i=1; i<=step; i++) document.getElementById('dot'+i).classList.add('active');
     }
 
+    // --- CORE LOGIC ---
+    function calculateWinRateGeneric(studentInput, uniInput, targetGrade) {
+        let schoolData;
+        try { schoolData = JSON.parse(studentInput.schoolIndexJson); } catch(e) { schoolData = {idx:65, alumni:0}; }
+        
+        let baseScore = (studentInput.avgRapor * 0.6) + (studentInput.avgMapel * 0.4);
+        let schoolFactor = (schoolData.idx - 80) * 0.15; 
+        let certBonus = studentInput.totalCertScore * 0.04;
+        let myFinalScore = baseScore + schoolFactor + certBonus;
+        let gap = myFinalScore - targetGrade;
+        
+        const ratio = uniInput.applicants / uniInput.quota; 
+        let competitionDrag = (ratio > 50) ? 20 : (ratio > 30) ? 15 : (ratio > 15) ? 10 : 5;
+        
+        let winRate = 50; 
+        if (gap >= 0) winRate += (gap * 5); else winRate += (gap * 10); 
+        winRate -= competitionDrag;
+        if (studentInput.trendPenalty > 0) winRate -= studentInput.trendPenalty;
+        
+        let isBlacklisted = false;
+        if (studentInput.schoolName.includes("SMAN 1 CILACAP") && (uniInput.ptn.includes("UNDIP") || uniInput.ptn.includes("UPN"))) {
+            if (winRate > 15) winRate = 15;
+            isBlacklisted = true;
+        }
+        winRate = Math.min(Math.max(winRate, 1), 99);
+
+        let logs = [];
+        logs.push({txt: `Target Grade`, val: targetGrade.toFixed(2), type:'neu'});
+        logs.push({txt: `Nilai Dasar`, val: baseScore.toFixed(2), type:'neu'});
+        if(schoolFactor !== 0) logs.push({txt: `Faktor Sekolah`, val: schoolFactor.toFixed(2), type: schoolFactor>=0?'pos':'neg'});
+        if(certBonus > 0) logs.push({txt: `Bonus Sertifikat`, val: `+${certBonus.toFixed(2)}`, type:'gold'});
+        if (gap >= 0) logs.push({txt: `Surplus Nilai`, val: `+${gap.toFixed(2)}`, type:'pos'});
+        else logs.push({txt: `Defisit Nilai`, val: gap.toFixed(2), type:'neg'});
+
+        return { rate: Math.floor(winRate), rawScore: myFinalScore, targetGrade: targetGrade, difficulty: ratio, isBlacklisted: isBlacklisted, logs: logs };
+    }
+
+    function safeProcess() {
+        try {
+            // Get Grades
+            let sum = 0; let grades = [];
+            for(let i=1; i<=5; i++) {
+                let v = parseFloat(document.getElementById('s'+i).value);
+                if(isNaN(v)) return alert("Isi nilai rapor lengkap.");
+                sum += v; grades.push(v);
+            }
+            // Get Options
+            const ptnVal = document.getElementById('ptnSelect').value;
+            const jurVal = document.getElementById('jurusanSelect').value;
+            if (!ptnVal || !jurVal) return alert("Pilih PTN dan Jurusan!");
+            const targetUniData = JSON.parse(jurVal);
+
+            // Get Mapel
+            const isCrossMajor = document.getElementById('crossMajorStatus').value === 'cross';
+            let avgMapel = parseFloat(document.getElementById('nilaiPendukung').value);
+            if (isCrossMajor) avgMapel = sum/5; 
+            if (isNaN(avgMapel)) avgMapel = 0;
+
+            // Get Certs Safely
+            const c1 = parseFloat(document.getElementById('cert1').value) || 0;
+            const c2 = parseFloat(document.getElementById('cert2').value) || 0;
+            const c3 = parseFloat(document.getElementById('cert3').value) || 0;
+            let totalCert = c1 + c2 + c3;
+            if (totalCert > 100) totalCert = 100;
+
+            const studentInput = {
+                avgRapor: sum/5,
+                avgMapel: avgMapel,
+                schoolIndexJson: document.getElementById('schoolIndex').value,
+                totalCertScore: totalCert,
+                schoolName: document.getElementById('schoolName').value.toUpperCase(),
+                trendPenalty: (grades[4] < grades[3]) ? 15 : 0 // Simplified trend logic
+            };
+
+            // Calculate
+            const res2024 = calculateWinRateGeneric(studentInput, targetUniData, targetUniData.grade2024);
+            const res2026 = calculateWinRateGeneric(studentInput, targetUniData, targetUniData.grade2026);
+
+            currentResults = { data2024: res2024, data2026: res2026, common: { name: document.getElementById('studentName').value } };
+
+            // UI TOGGLE (Fixed)
+            document.getElementById('wizardForm').style.display = 'none';
+            document.getElementById('resultArea').style.display = 'block';
+            window.scrollTo(0, 0); // Scroll to top to ensure visibility
+            
+            // Show Default Tab
+            switchTab('2026');
+
+            // Alerts
+            const tAlert = document.getElementById('trendAlert');
+            if (studentInput.trendPenalty > 0) { 
+                tAlert.style.display = "block"; 
+                tAlert.innerHTML = `📉 Grafik nilai turun di semester akhir (-${studentInput.trendPenalty}%).`; 
+            } else tAlert.style.display = "none";
+            
+            document.getElementById('blacklistAlert').style.display = res2026.isBlacklisted ? "block" : "none";
+            findRecommendations(studentInput, targetUniData);
+
+        } catch (e) {
+            alert("Terjadi kesalahan perhitungan. Silakan refresh halaman.");
+            console.error(e);
+        }
+    }
+
+    function switchTab(year) {
+        document.getElementById('btn2024').classList.remove('active');
+        document.getElementById('btn2026').classList.remove('active');
+        document.getElementById('btn'+year).classList.add('active');
+
+        const data = year === '2024' ? currentResults.data2024 : currentResults.data2026;
+        if(!data) return;
+
+        const colorMap = (r) => (r>=85 ? "#10b981" : r>=65 ? "#22d3ee" : r>=45 ? "#f59e0b" : "#ef4444");
+        const textMap = (r) => (r>=85 ? "SANGAT AMAN" : r>=65 ? "PELUANG BAGUS" : r>=45 ? "MODERAT" : "SANGAT BERISIKO");
+        
+        const color = colorMap(data.rate);
+        const text = textMap(data.rate);
+
+        document.getElementById('winRateTxt').innerText = data.rate + "%";
+        document.getElementById('winRateTxt').style.color = color;
+        document.getElementById('statusTxt').innerText = text;
+        document.getElementById('statusTxt').style.color = color;
+        document.getElementById('cardMain').style.borderColor = color;
+
+        document.getElementById('dispTarget').innerText = data.targetGrade.toFixed(2);
+        document.getElementById('dispMyScore').innerText = data.rawScore.toFixed(2);
+        document.getElementById('dispRatio').innerText = "1 : " + Math.round(data.difficulty);
+
+        document.getElementById('greetingTxt').innerHTML = (year === '2026') ? 
+            `Halo <strong>${currentResults.common.name}</strong>, ini prediksi tahun depan:` : 
+            `Perbandingan jika menggunakan data 2024:`;
+
+        let bdHtml = "";
+        data.logs.forEach(log => {
+            bdHtml += `<div class="breakdown-item"><span class="bd-txt">${log.txt}</span><span class="bd-val ${log.type}">${log.val}</span></div>`;
+        });
+        document.getElementById('breakdownBox').innerHTML = bdHtml;
+    }
+
+    // --- UTILS ---
+    function populatePTN() { 
+        const sel = document.getElementById('ptnSelect'); 
+        ptnList.forEach(p => { let opt = document.createElement('option'); opt.value = p; opt.innerText = p; sel.appendChild(opt); }); 
+    }
+    function filterJurusan() { 
+        const ptn = document.getElementById('ptnSelect').value; 
+        const sel = document.getElementById('jurusanSelect'); 
+        sel.innerHTML = '<option value="">-- Pilih Jurusan --</option>'; 
+        allData.filter(d => d.ptn === ptn).forEach(d => { let opt = document.createElement('option'); opt.value = JSON.stringify(d); opt.innerText = d.jurusan; sel.appendChild(opt); }); 
+    }
+    function checkMapel() { 
+        const d = JSON.parse(document.getElementById('jurusanSelect').value); 
+        document.getElementById('mapelAlert').style.display = 'block'; 
+        document.getElementById('txtMapel').innerText = d.mapel; 
+    }
+    function toggleMapelInput() { 
+        const inputDiv = document.getElementById('inputPendukungBox'); 
+        if(document.getElementById('crossMajorStatus').value === 'cross') { 
+            inputDiv.style.opacity = "0.3"; document.getElementById('nilaiPendukung').disabled = true; document.getElementById('nilaiPendukung').value = ""; 
+        } else { 
+            inputDiv.style.opacity = "1"; document.getElementById('nilaiPendukung').disabled = false; 
+        } 
+    }
+    function toggleRecs() {
+        const wrap = document.getElementById('recWrapper');
+        wrap.style.display = (wrap.style.display === 'block') ? 'none' : 'block';
+    }
     function getCluster(jurusan) {
         const j = jurusan.toUpperCase();
         if (j.includes("DOKTER") || j.includes("KEDOKTERAN")) return "MED";
@@ -343,253 +513,21 @@
         if (j.includes("TEKNIK") || j.includes("ENGINEERING")) return "ENG";
         return "OTHERS";
     }
-
-    function calculateTrend(grades) {
-        let penalty = 0;
-        if (grades[4] < grades[3]) penalty = 15; 
-        else if (grades[4] < grades[2]) penalty = 10;
-        return penalty;
-    }
-
-    // --- CORE LOGIC YG FLEKSIBEL (BISA TAHUN BERAPAPUN) ---
-    function calculateWinRateGeneric(studentInput, uniInput, targetGrade) {
-        const schoolData = JSON.parse(studentInput.schoolIndexJson);
-        
-        let baseScore = (studentInput.avgRapor * 0.6) + (studentInput.avgMapel * 0.4);
-        let schoolFactor = (schoolData.idx - 80) * 0.15; 
-        let certBonus = studentInput.totalCertScore * 0.04;
-
-        let myFinalScore = baseScore + schoolFactor + certBonus;
-        let gap = myFinalScore - targetGrade;
-        
-        const ratio = uniInput.applicants / uniInput.quota; 
-        let competitionDrag = 0;
-        if (ratio > 50) competitionDrag = 20;      
-        else if (ratio > 30) competitionDrag = 15; 
-        else if (ratio > 15) competitionDrag = 10; 
-        else competitionDrag = 5;                  
-
-        let winRate = 50; 
-        if (gap >= 0) winRate += (gap * 5);
-        else winRate += (gap * 10); 
-
-        winRate -= competitionDrag;
-        if (studentInput.trendPenalty > 0) winRate -= studentInput.trendPenalty;
-
-        let isBlacklisted = false;
-        if (studentInput.schoolName.includes("SMAN 1 CILACAP") && 
-           (uniInput.ptn.includes("UNDIP") || uniInput.ptn.includes("UPN"))) {
-            if (winRate > 15) winRate = 15;
-            isBlacklisted = true;
-        }
-
-        winRate = Math.min(Math.max(winRate, 1), 99);
-
-        // CREATE LOGS
-        let logs = [];
-        logs.push({txt: `Target Grade (${targetGrade.toFixed(2)})`, val: "Base", type:'neu'});
-        logs.push({txt: `Nilai Dasar`, val: baseScore.toFixed(2), type:'neu'});
-        if(schoolFactor !== 0) logs.push({txt: `Faktor Sekolah`, val: schoolFactor.toFixed(2), type: schoolFactor>=0?'pos':'neg'});
-        if(certBonus > 0) logs.push({txt: `Bonus Sertifikat`, val: `+${certBonus.toFixed(2)}`, type:'gold'});
-        if (gap >= 0) logs.push({txt: `Surplus Nilai (+${gap.toFixed(2)})`, val: `Aman`, type:'pos'});
-        else logs.push({txt: `Defisit Nilai (${gap.toFixed(2)})`, val: `Risiko`, type:'neg'});
-
-        return {
-            rate: Math.floor(winRate),
-            rawScore: myFinalScore,
-            targetGrade: targetGrade,
-            difficulty: ratio,
-            isBlacklisted: isBlacklisted,
-            logs: logs
-        };
-    }
-
-    function getDetailedStatus(winRate) {
-        if (winRate >= 85) return { text: "SANGAT AMAN", color: "#10b981" }; 
-        if (winRate >= 65) return { text: "PELUANG BAGUS", color: "#22d3ee" }; 
-        if (winRate >= 45) return { text: "MODERAT / HATI-HATI", color: "#f59e0b" }; 
-        return { text: "SANGAT BERISIKO", color: "#ef4444" }; 
-    }
-
-    function safeProcess() {
-        let sum = 0; let grades = [];
-        for(let i=1; i<=5; i++) {
-            let v = parseFloat(document.getElementById('s'+i).value);
-            if(isNaN(v)) return alert("Isi nilai rapor lengkap.");
-            sum += v; grades.push(v);
-        }
-        
-        const ptnVal = document.getElementById('ptnSelect').value;
-        const jurVal = document.getElementById('jurusanSelect').value;
-        if (!ptnVal || !jurVal) return alert("Pilih PTN dan Jurusan!");
-
-        const targetUniData = JSON.parse(jurVal);
-        const isCrossMajor = document.getElementById('crossMajorStatus').value === 'cross';
-        
-        let avgMapel = parseFloat(document.getElementById('nilaiPendukung').value);
-        if (isCrossMajor) avgMapel = sum/5; 
-        if (isNaN(avgMapel)) avgMapel = 0;
-
-        const c1 = parseFloat(document.getElementById('cert1').value);
-        const c2 = parseFloat(document.getElementById('cert2').value);
-        const c3 = parseFloat(document.getElementById('cert3').value);
-        let totalCert = c1 + c2 + c3;
-        if (totalCert > 100) totalCert = 100;
-
-        const studentInput = {
-            avgRapor: sum/5,
-            avgMapel: avgMapel,
-            schoolIndexJson: document.getElementById('schoolIndex').value,
-            totalCertScore: totalCert,
-            schoolName: document.getElementById('schoolName').value.toUpperCase(),
-            trendPenalty: calculateTrend(grades)
-        };
-
-        // CALCULATE DOUBLE RESULTS (2024 & 2026)
-        const res2024 = calculateWinRateGeneric(studentInput, targetUniData, targetUniData.grade2024);
-        const res2026 = calculateWinRateGeneric(studentInput, targetUniData, targetUniData.grade2026);
-
-        currentResults = {
-            data2024: res2024,
-            data2026: res2026,
-            common: { ptn: ptnVal, jur: targetUniData.jurusan, name: document.getElementById('studentName').value }
-        };
-
-        // RENDER
-        document.getElementById('wizardForm').style.display = 'none';
-        document.getElementById('resultArea').style.display = 'block';
-        document.getElementById('resPTN').innerText = ptnVal;
-        document.getElementById('resJur').innerText = targetUniData.jurusan;
-
-        // Alerts
-        const tAlert = document.getElementById('trendAlert');
-        if (studentInput.trendPenalty > 0) { 
-            tAlert.style.display = "block"; 
-            tAlert.innerHTML = `📉 <strong>Warning:</strong> Tren nilai turun mengurangi peluang sebesar ${studentInput.trendPenalty}%.`; 
-        } else { tAlert.style.display = "none"; }
-        document.getElementById('blacklistAlert').style.display = res2026.isBlacklisted ? "block" : "none";
-
-        // Generate Recs using 2026 logic (safer)
-        findRecommendations(studentInput, targetUniData);
-
-        // Default view: 2026
-        switchTab('2026');
-    }
-
-    // --- TAB SWITCHER LOGIC ---
-    function switchTab(year) {
-        // Toggle Active Class
-        document.getElementById('btn2024').classList.remove('active');
-        document.getElementById('btn2026').classList.remove('active');
-        document.getElementById('btn'+year).classList.add('active');
-
-        // Select Data
-        const data = year === '2024' ? currentResults.data2024 : currentResults.data2026;
-        if(!data) return;
-
-        // Update UI
-        const statusObj = getDetailedStatus(data.rate);
-        const card = document.getElementById('cardMain');
-        
-        document.getElementById('winRateTxt').innerText = data.rate + "%";
-        document.getElementById('winRateTxt').style.color = statusObj.color;
-        
-        document.getElementById('statusTxt').innerText = statusObj.text;
-        document.getElementById('statusTxt').style.color = statusObj.color;
-        card.style.borderColor = statusObj.color;
-
-        document.getElementById('dispTarget').innerText = data.targetGrade.toFixed(2);
-        document.getElementById('dispMyScore').innerText = data.rawScore.toFixed(2);
-        document.getElementById('dispRatio').innerText = "1 : " + Math.round(data.difficulty);
-
-        let greet = "";
-        if(year === '2026') {
-             greet = data.rate > 60 ? `Fokus kejar target ini, <strong>${currentResults.common.name}</strong>!` : `Persaingan 2026 ketat, <strong>${currentResults.common.name}</strong>.`;
-        } else {
-             greet = `Jika pakai data tahun lalu, hasilnya begini:`;
-        }
-        document.getElementById('greetingTxt').innerHTML = greet;
-
-        let bdHtml = "";
-        data.logs.forEach(log => {
-            bdHtml += `<div class="breakdown-item"><span class="bd-txt">${log.txt}</span><span class="bd-val ${log.type}">${log.val}</span></div>`;
-        });
-        document.getElementById('breakdownBox').innerHTML = bdHtml;
-    }
-
     function findRecommendations(studentInput, currentTarget) {
         const recList = document.getElementById('recList');
         recList.innerHTML = "";
         const currentCluster = getCluster(currentTarget.jurusan);
-        
-        let candidates = allData.filter(d => 
-            getCluster(d.jurusan) === currentCluster && 
-            d.ptn !== currentTarget.ptn
-        ).map(d => {
-            // Use 2026 for recommendation safety
+        let candidates = allData.filter(d => getCluster(d.jurusan) === currentCluster && d.ptn !== currentTarget.ptn).map(d => {
             const res = calculateWinRateGeneric(studentInput, d, d.grade2026);
             return { ...d, winRate: res.rate };
-        }).filter(d => d.winRate > 40)
-          .sort((a,b) => b.winRate - a.winRate)
-          .slice(0, 5);
-
-        if (candidates.length === 0) {
-            recList.innerHTML = "<div style='text-align:center;color:#aaa'>Tidak ada rekomendasi aman.</div>";
-        }
-
+        }).filter(d => d.winRate > 40).sort((a,b) => b.winRate - a.winRate).slice(0, 5);
+        if (candidates.length === 0) recList.innerHTML = "<div style='text-align:center;color:#aaa'>Tidak ada rekomendasi aman.</div>";
         candidates.forEach(m => {
             let div = document.createElement('div'); div.className = 'rec-card';
-            const det = getDetailedStatus(m.winRate);
-            div.innerHTML = `
-                <div style="flex:1;">
-                    <div class="rec-ptn">${m.ptn}</div>
-                    <div style="font-size:0.75rem; color:var(--text-muted);">${m.jurusan}</div>
-                </div>
-                <div class="rec-badge" style="color:${det.color}; text-align:right;">
-                    <div class="rec-percent" style="font-weight:900; font-size:1.2rem;">${m.winRate}%</div>
-                </div>`;
+            const color = m.winRate>=65 ? "#22d3ee" : "#f59e0b";
+            div.innerHTML = `<div style="flex:1;"><div class="rec-ptn">${m.ptn}</div><div style="font-size:0.75rem; color:#94a3b8;">${m.jurusan}</div></div><div class="rec-badge" style="color:${color}; text-align:right;"><div class="rec-percent" style="font-weight:900; font-size:1.2rem;">${m.winRate}%</div></div>`;
             recList.appendChild(div);
         });
-    }
-
-    function populatePTN() { 
-        const sel = document.getElementById('ptnSelect'); 
-        ptnList.forEach(p => { 
-            let opt = document.createElement('option'); 
-            opt.value = p; opt.innerText = p; sel.appendChild(opt); 
-        }); 
-    }
-    function filterJurusan() { 
-        const ptn = document.getElementById('ptnSelect').value; 
-        const sel = document.getElementById('jurusanSelect'); 
-        sel.innerHTML = '<option value="">-- Pilih Jurusan --</option>'; 
-        allData.filter(d => d.ptn === ptn).forEach(d => { 
-            let opt = document.createElement('option'); 
-            opt.value = JSON.stringify(d); 
-            opt.innerText = d.jurusan; 
-            sel.appendChild(opt); 
-        }); 
-    }
-    function checkMapel() { 
-        const d = JSON.parse(document.getElementById('jurusanSelect').value); 
-        document.getElementById('mapelAlert').style.display = 'block'; 
-        document.getElementById('txtMapel').innerText = d.mapel; 
-    }
-    function toggleMapelInput() { 
-        const status = document.getElementById('crossMajorStatus').value; 
-        const inputDiv = document.getElementById('inputPendukungBox'); 
-        if(status === 'cross') { 
-            inputDiv.style.opacity = "0.3"; 
-            document.getElementById('nilaiPendukung').disabled = true; 
-            document.getElementById('nilaiPendukung').value = ""; 
-        } else { 
-            inputDiv.style.opacity = "1"; 
-            document.getElementById('nilaiPendukung').disabled = false; 
-        } 
-    }
-    function toggleRecs() {
-        const wrap = document.getElementById('recWrapper');
-        wrap.style.display = (wrap.style.display === 'block') ? 'none' : 'block';
     }
 
     window.addEventListener('load', initSystem);
